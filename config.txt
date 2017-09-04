@@ -2,14 +2,7 @@
 # Robot module configurations : general handling of movement G-codes and slicing into moves
 default_feed_rate                            4000             # Default rate ( mm/minute ) for G1/G2/G3 moves
 default_seek_rate                            4000             # Default rate ( mm/minute ) for G0 moves
-mm_per_arc_segment                           1              # Arcs are c
-
-
-
-
-
-
-ut into segments ( lines ), this is the length for
+mm_per_arc_segment                           1              # Arcs are cut into segments ( lines ), this is the length for
                                                               # these segments.  Smaller values mean more resolution,
                                                               # higher values mean faster computation
 #mm_per_line_segment                         0.2              # Lines can be cut into segments ( not useful with cartesian
