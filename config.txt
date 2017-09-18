@@ -245,11 +245,11 @@ leveling-strategy.delta-calibration.radius           70
 leveling-strategy.delta-calibration.initial_height   50  # height above bed to stop initial move
            
 leveling-strategy.delta-grid.enable         true
-leveling-strategy.delta-grid.radius        90
-leveling-strategy.delta-grid.size        7
+leveling-strategy.delta-grid.radius        107
+leveling-strategy.delta-grid.size        11
 leveling-strategy.delta-grid.probe_offsets  0,-23.6,0  # probe offsetrs x,y,z-23.6
 leveling-strategy.delta-grid.save        true
-leveling-strategy.delta-grid.initial_height  50
+leveling-strategy.delta-grid.initial_height  20
 
 # Pause button
 pause_button_enable                          true             #
