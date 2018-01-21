@@ -1,0 +1,18 @@
+==Configuration switching with touchscreen firmware v2_20171024==
+The original 20170816 firmware does not contain the config.prusa file.
+This file should be copied to the 20170816 firmware to make switching between configurations work with the latest touchscreen firmware.
+
+==Z axis endstop not working==
+config.lasercartisian: 
+changed
+> gamma_max_endstop                            1.29^
+to
+> gamma_max_endstop                            1.29^!
+
+==temperature control configuration==
+Makes no sense to be activated, so set
+> temperature_control.hotend.enable = false
+
+==network==
+Was not enabled in cartesian mode so set
+> network.enable = true
