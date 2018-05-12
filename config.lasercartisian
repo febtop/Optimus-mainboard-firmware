@@ -235,7 +235,7 @@ gamma_slow_homing_rate_mm_s                  20                # "
 
 alpha_homing_retract_mm                      5                # distance in mm
 beta_homing_retract_mm                       5                # "
-gamma_homing_retract_mm                      1                # "
+gamma_homing_retract_mm                      0                # "
 
 #endstop_debounce_count                       100              # uncomment if you get noise on your endstops, default is 100
 
